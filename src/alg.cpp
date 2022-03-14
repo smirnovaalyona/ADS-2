@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <alg.h>
 
-double pown(double value, uint_t n) {
+double pown(double value, uint16_t n) {
     double tm = 1;
     while ( n != 0) {
         n--;
