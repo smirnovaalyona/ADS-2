@@ -4,7 +4,7 @@
 
 double pown(double value, uint_t n) {
     double tm = 1;
-    while ( n!= 0) {
+    while ( n != 0) {
         n--;
         tm = tm * value;
     }
@@ -19,7 +19,7 @@ uint64_t fact(uint16_t n) {
 }
 
 double calcItem(double x, uint16_t n) {
-    return pown(x, n) /fact(n);
+    return pown(x, n) / fact(n);
 }
 
 double expn(double x, uint16_t count) {
