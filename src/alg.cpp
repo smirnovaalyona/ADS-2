@@ -1,5 +1,5 @@
 // Copyright 2022 NNTU-CS
-#include <csdint>
+#include <cstdint>
 #include <alg.h>
 
 double pown(double value, uint_t n) {
