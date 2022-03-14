@@ -1,4 +1,4 @@
-// Copyright 2022 NNTU-CS
+// Copyright 2022 NNTU-C
 #include <cstdint>
 #include "alg.h"
 double pown(double value, uint16_t n) {
