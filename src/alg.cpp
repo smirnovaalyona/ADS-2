@@ -1,10 +1,10 @@
 // Copyright 2022 NNTU-CS
-#include <cstdint>
 #include <alg.h>
+#include <cstdint>
 
 double pown(double value, uint16_t n) {
     double tm = 1;
-    while ( n != 0) {
+    while (n != 0) {
         n--;
         tm = tm * value;
     }
